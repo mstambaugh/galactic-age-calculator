@@ -3,10 +3,9 @@ import $ from 'jquery';
 import './styles.css';
 
 $(document).ready(function() {
-  $('').submit(function(event) {
+  // $("form#userInput").submit(function(event) {
     event.preventDefault();
-    
-    // output.forEach(function(element) {
-    //   $('#solution').append("<li>" + element + "</li>");
+    // let earthAge = parseInt($("input#earthAge").val());
+
     });
 });
