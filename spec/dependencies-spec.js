@@ -51,5 +51,4 @@ describe('GalacticPerson', function() {
   it('should calculate Jupiter time left to live', function() {
     expect(recycledperson.timeToLive("Jupiter")).toEqual(747.18);
   });
-
 });
