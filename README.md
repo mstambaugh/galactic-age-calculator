@@ -22,20 +22,20 @@ _This program collects user-inputted age and returns their age and life expectan
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _Open in text editor_
-* _view on gh-pages_
+* _Run npm install (with node.js) to download dependencies and test_
+* _ _
 * _ _
 
 
 ## Known Bugs
 
-_No known bugs. Please report any to mstambaugh_
+_No known bugs. Please report any to github user mstambaugh_
 
 
 
 ## Technologies Used
 
-_HTML, CSS, Bootstrap, JavaScript, jQuery, Node, Karma, Jasmine,  _
+_HTML, CSS, JavaScript, jQuery, Node, Webpack, Karma, Jasmine_
 
 ### License
 
