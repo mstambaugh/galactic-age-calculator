@@ -1,7 +1,7 @@
 
 # _Galactic Age Calculator_
 
-#### An exercise in loops and arrays for _**Epicodus**_ Week 5.
+#### An exercise in Webpack and dependencies for _**Epicodus**_ Week 5.
 
 #### By _**Molly Stambaugh**_
 
