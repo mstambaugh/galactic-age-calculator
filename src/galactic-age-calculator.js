@@ -1,5 +1,4 @@
-class GalacticPerson {
-constructor(age, lifeexpectancy,) {
+export function GalacticPerson(age, lifeexpectancy,) {
   this.earthAge = age;
   this.lifeExpectancy = lifeexpectancy;
 }

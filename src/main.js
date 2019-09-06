@@ -4,8 +4,8 @@ import './styles.css';
 
 $(document).ready(function() {
   // $("form#userInput").submit(function(event) {
-    event.preventDefault();
+    // event.preventDefault();
     // let earthAge = parseInt($("input#earthAge").val());
 
-    });
+    // });
 });
