@@ -31,4 +31,21 @@ describe('GalacticPerson', function() {
   it('should calculate Jupiter age', function() {
     expect(recycledperson.jupiterAge()).toEqual(189.76);
   });
+
+  it('should calculate Mercury time left to live' function() {
+    expect(recycledperson.timeToLive("Mercury")).toEqual(15.12);
+  });
+
+  it('should calculate Venus time left to live' function() {
+    expect(recycledperson.timeToLive("Venus")).toEqual(39.06);
+  });
+
+  it('should calculate Mars time left to live' function() {
+    expect(recycledperson.timeToLive("Mars")).toEqual(118.44);
+  });
+
+  it('should calculate Jupiter time left to live' function() {
+    expect(recycledperson.timeToLive("Jupiter")).toEqual(747.18);
+  });
+
 });

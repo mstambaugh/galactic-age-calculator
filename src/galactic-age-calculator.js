@@ -3,8 +3,7 @@ export function GalacticPerson(age, lifeexpectancy,) {
   this.lifeExpectancy = lifeexpectancy;
 }
 
-GalacticPerson.prototype. = function (planetName) {
-  const mars =
-  const mercury =
+GalacticPerson.prototype.timeToLive = function (planetName) {
+  
   if .earthAge
 };
