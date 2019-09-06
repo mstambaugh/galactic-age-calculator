@@ -1,5 +1,4 @@
-export function GalacticPerson(age, lifeexpectancy, ) {
-  this.age = age;
-  this.lifeexpectancy = lifeexpectancy;
-
+export function GalacticPerson(age, lifeexpectancy,) {
+  this.earthAge = age;
+  this.lifeExpectancy = lifeexpectancy;
 }
