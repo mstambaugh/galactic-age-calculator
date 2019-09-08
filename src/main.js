@@ -1,4 +1,4 @@
-import { GalacticPerson } from './galactic-age-calculator.js';
+import GalacticPerson from './galactic-age-calculator.js';
 import $ from 'jquery';
 import './styles.css';
 
