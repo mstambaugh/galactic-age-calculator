@@ -1,38 +1,39 @@
-export function GalacticPerson(age, lifeexpectancy,) {
-  this.earthAge = age;
-  this.lifeExpectancy = lifeexpectancy;
-}
-
-GalacticPerson.prototype.mercuryAge = function() {
-  return this.earthAge / .24;
-}
-
-GalacticPerson.prototype.venusAge = function() {
-  return this.earthAge / .62;
-}
-
-GalacticPerson.prototype.marsAge = function() {
-  return this.earthAge / 1.88;
-}
-
-GalacticPerson.prototype.jupiterAge = function() {
-  return this.earthAge / 11.86;
-}
-
-GalacticPerson.prototype.timeToLive = function (planetName) {
-  if (planetName === "Mercury") {
-    return (this.lifeExpectancy - this.earthAge) / .24;
-
-  } else if (planetName === "Venus") {
-      return (this.lifeExpectancy - this.earthAge) / .62;
-
-  } else if (planetName === "Mars") {
-      return (this.lifeExpectancy - this.earthAge) / 1.88;
-
-  } else if (planetName === "Jupiter") {
-      return (this.lifeExpectancy - this.earthAge) / 11.86;
-
-  } else if (planetName === "Earth") {
-      return (this.lifeExpectancy - this.earthAge);
+export class GalacticPerson {
+  constructor(age, lifeexpectancy) {
+    this.earthAge = age;
+    this.lifeExpectancy = lifeexpectancy;
   }
-};
+  mercuryAge() {
+    return Math.floor(this.earthAge / .24);
+  }
+
+  venusAge() {
+    return Math.floor(this.earthAge / .62);
+  }
+
+  marsAge() {
+    return Math.floor(this.earthAge / 1.88);
+  }
+
+  jupiterAge() {
+    return Math.floor(this.earthAge / 11.86);
+  }
+
+  timeToLive(planetName) {
+    if (planetName === "Mercury") {
+      return Math.floor((this.lifeExpectancy - this.earthAge) / .24);
+
+    } else if (planetName === "Venus") {
+      return Math.floor((this.lifeExpectancy - this.earthAge) / .62);
+
+    } else if (planetName === "Mars") {
+      return Math.floor((this.lifeExpectancy - this.earthAge) / 1.88);
+
+    } else if (planetName === "Jupiter") {
+      return Math.floor((this.lifeExpectancy - this.earthAge) / 11.86);
+
+    } else if (planetName === "Earth") {
+      return Math.floor((this.lifeExpectancy - this.earthAge));
+    }
+  }
+}
